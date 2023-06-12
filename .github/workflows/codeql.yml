@@ -1,0 +1,10 @@
+int main()
+{
+    double x=0.84;
+    double y=0.65;
+    double z=pow(cos(y),2)+pow(sin(x*x),3);
+    double b=exp(z-1)/(2*y+pow(x,3))+sin(y*y);
+    cout<<"b="<<b<<endl;
+    system("pause");
+    return 0;
+}
